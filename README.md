@@ -24,3 +24,14 @@ Every single hospital floor has a bed status board. The purpose of this board is
   <li>Change some status based on alarms, maybe getting input from some sensor.</li>
 </ul>
 # s
+
+# installation
+
+use node v12 and mongodb
+
+```
+$ mkdir -p data/db
+$ mongod --dbpath=./data/db
+$ npm install
+$ npm run build
+```
