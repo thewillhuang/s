@@ -29,7 +29,7 @@ Every single hospital floor has a bed status board. The purpose of this board is
 
 use node v12 and mongodb
 
-```
+```sh
 $ mkdir -p data/db
 $ mongod --dbpath=./data/db
 $ npm install
